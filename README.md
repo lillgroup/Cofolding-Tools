@@ -31,7 +31,7 @@ python -m rf2aa.run_inference --config-name example
 
 The latest version of AlphaFold3 is available via the repository here: [https://github.com/chaidiscovery/chai-lab](https://github.com/chaidiscovery/chai-lab). Following their [installation instructions](https://github.com/chaidiscovery/chai-lab?tab=readme-ov-file#installation), you can run the test example by running the following command:
 ```
-chai-lab fold --use-msa-server --use-templates-server examples/chai_input/example.yaml output_folder
+chai-lab fold --use-msa-server --use-templates-server examples/chai_input/example.fasta output_folder
 ```
 
 ### Boltz-1
